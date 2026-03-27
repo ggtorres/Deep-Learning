@@ -33,3 +33,23 @@ janeiro de 2000 e o teste em meados de 2019 até dezembro de 2023.
 Também será fornecido um arquivo no formato html mostrando a série de
 preços, a suavização realizada bem como os rótulos de forma iterativa, como na
 imagem anterior, apenas para facilitar a interpretação do problema.
+
+COMO RESOLVER O PROBLEMA:
+Utilizando os arquivos csv é possível treinar modelos de redes neurais
+convolucionais 1D (CNN 1D) e redes neurais recorrentes (RNN). Utilizando as
+imagens é possível treinar redes neurais convolucionais 2D (CNN 2D).
+Também é possível extrair mais features dos seguimentos de 15 dias e treinar
+uma CNN, RNN ou até mesmo uma rede neural mais simplificada.
+
+O QUE É ESPERADO COMO ENTREGA?
+A solução implementada utilizando modelos de Deep Learning com Tensorflow para as
+4 ações e outras soluções diferenciadas e inovadores (opcional) que possam ser
+aplicadas ao conjunto de dados proposto.
+• Devem ser entregues em formato de Jupyter Notebook;
+As quatro ações devem ter modelos treinados, e devem ser apresentados os seguintes
+indicadores:
+• Acurácia no conjunto de teste de cada modelo;
+• Matriz de confusão, precision e recall de cada modelo;
+• Desempenho financeiro do modelo via ‘backtest’ com o objetivo de responder se o
+modelo gerado daria retorno financeiro (opcional pois é um assunto de finanças, se
+não fizer não há prejuízo na nota final); 
